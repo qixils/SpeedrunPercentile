@@ -149,6 +149,7 @@ async function get<T>(endpoint: string, searchParams?: Record<string, any>): Pro
       message: 'Enter the top percentile to fetch data for',
       min: 0,
       max: 100,
+      step: 'any',
       default: defaultPercentile,
     }) ?? defaultPercentile)/100
 
