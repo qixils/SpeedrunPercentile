@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node out/cli.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.0.1"
+  }
+}
